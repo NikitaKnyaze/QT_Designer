@@ -32,7 +32,9 @@ if(ANDROID)
     mainwindow.cpp
     mainwindow.h
     mainwindow.ui
-    res.qrc
+    dialog.cpp
+    dialog.h
+    dialog.ui
   )
 else()
   add_executable(QtDesigner
@@ -40,7 +42,9 @@ else()
     mainwindow.cpp
     mainwindow.h
     mainwindow.ui
-    res.qrc
+    dialog.cpp
+    dialog.h
+    dialog.ui
   )
 endif()
 
